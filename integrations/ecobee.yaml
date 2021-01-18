@@ -1,0 +1,3 @@
+---
+ecobee:
+  api_key: !env_var HASS_SECRET_ECOBEE_API_KEY

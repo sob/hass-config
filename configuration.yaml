@@ -1,0 +1,19 @@
+# ------------------- 
+# General settings
+# -------------------
+# The configuration.yaml is only used to bootstrap the system
+# and contains some minimal, but vital, settings.
+---
+homeassistant:
+  legacy_templates: false
+  name: Stonehedges
+  latitude: !env_var HASS_SECRET_LATITUDE
+  longitude: !env_var HASS_SECRET_LONGITUDE
+  elevation: !env_var HASS_SECRET_ELEVATION
+  unit_system: imperial
+  time_zone: America/Chicago
+
+  external_url: "https://hass.stonehedges.net"
+
+  packages: !include_dir_named integrations
+  allowlist_external_dirs: !include allowlist_external_dirs.yaml
