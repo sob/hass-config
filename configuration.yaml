@@ -13,7 +13,12 @@ homeassistant:
   unit_system: imperial
   time_zone: America/Chicago
 
-  external_url: "https://hass.stonehedges.net"
+  external_url: "https://hass.56kbps.io"
 
   packages: !include_dir_named integrations
   allowlist_external_dirs: !include allowlist_external_dirs.yaml
+
+http:
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - 10.0.0.0/8
