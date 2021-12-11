@@ -1,6 +1,6 @@
 ---
 mqtt:
-  discovery: false
+  discovery: true
   broker: 127.0.0.1
   client_id: homeassistant
   birth_message:
