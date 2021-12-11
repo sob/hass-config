@@ -6,7 +6,7 @@
 ---
 homeassistant:
   legacy_templates: false
-  name: Stonehedges
+  name: STONEHEDGES
   latitude: !env_var HASS_SECRET_LATITUDE
   longitude: !env_var HASS_SECRET_LONGITUDE
   elevation: !env_var HASS_SECRET_ELEVATION
