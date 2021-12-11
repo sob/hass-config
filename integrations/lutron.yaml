@@ -1,0 +1,6 @@
+---
+lutron_caseta:
+  - host: !env_var HASS_SECRET_CASETA_BRIDGE_IP
+    keyfile: /secrets/caseta.key
+    certfile: /secrets/caseta.crt
+    ca_certs: /secrets/caseta-bridge.crt
