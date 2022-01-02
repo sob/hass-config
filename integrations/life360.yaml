@@ -1,6 +1,5 @@
 ---
 life360:
-  interval: 10s
   accounts:
     - username: !env_var HASS_SECRET_LIFE360_USERNAME
       password: !env_var HASS_SECRET_LIFE360_PASSWORD
