@@ -1,7 +1,10 @@
 ---
 mqtt:
   discovery: true
-  broker: 127.0.0.1
+  broker: mosquitto.home.svc.cluster.local
+  port: 1883
+  username: !env_var HASS_SECRET_MQTT_USERNAME
+  password: !env_var HASS_SECRET_MQTT_PASSWORD
   client_id: homeassistant
   birth_message:
     topic: 'hass/status'
