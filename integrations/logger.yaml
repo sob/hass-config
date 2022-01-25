@@ -6,3 +6,5 @@
 
 logger:
   default: info
+  logs:
+    custom_components.auth_header: debug
