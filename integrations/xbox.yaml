@@ -1,0 +1,4 @@
+---
+xbox:
+  client_id: !env_var HASS_SECRET_XBOX_CLIENT_ID
+  client_secret: !env_var HASS_SECRET_XBOX_CLIENT_TOKEN
