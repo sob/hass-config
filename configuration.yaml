@@ -24,3 +24,5 @@ http:
     - 10.0.0.0/8
 
 auth_header:
+
+group: !include entities/groups.yaml

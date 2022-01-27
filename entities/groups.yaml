@@ -1,0 +1,8 @@
+homeaway:
+  name: Home / Away
+  entities:
+    - device_tracker.life360_sean_o_brien
+    - device_tracker.life360_gina_obrien
+    - device_tracker.life360_emma_obrien
+    - device_tracker.life360_liam_obrien
+    - input_boolean.guest_home
