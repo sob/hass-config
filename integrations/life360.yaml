@@ -1,5 +1,0 @@
----
-life360:
-  accounts:
-    - username: !env_var HASS_SECRET_LIFE360_USERNAME
-      password: !env_var HASS_SECRET_LIFE360_PASSWORD
