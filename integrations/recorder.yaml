@@ -14,9 +14,17 @@ recorder:
 
   # Exclude the following items from recordings
   exclude:
-    # The list of entity ids to be excluded from recordings.
+    domains:
+      - automation
+      - updater
+    entity_globs:
+      - sensor.weather_*
     entities:
+      - sun.sun
+      - sensor.last_boot
       - sensor.date
       - sensor.date_time
       - sensor.time
       - sensor.time_utc
+    event_types:
+      - call_service
